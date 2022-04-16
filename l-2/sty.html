@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>مجموع الطالب</title>
+    
+    <style type="text/css">
+        h1{
+            color: brown;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: chocolate;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>برنامج معرفة هل الطالب ناجح او لا</h1>
+
+
+    <script type="text/javascript">
+            var sum = window.prompt("ادخل مجموع الطالب");
+
+            if( sum  >= 85 && sum <=100) {
+                document.write("<h2> هذا الطالب ممتاز </h2>");
+
+                alert("بالتوفيق في مسيرتك العلمية")
+            }
+            
+            if( sum  >= 75 && sum <85) {
+                document.write("<h2> هذا الطالب جيد جدا </h2>");
+            }
+            
+            if( sum  >= 65 && sum < 75) {
+                document.write("<h2> هذا الطالب جيد </h2>");
+            }
+            
+            if( sum  >= 50 && sum < 65) {
+                document.write("<h2> هذا الطالب مقبول </h2>");
+            }
+            
+            if( sum <50) {
+                document.write("<h2> هذا الطالب راسب </h2>");
+            }
+
+            if(sum > 100 ){
+                alert("هذه الدرجة غير مدرجة")
+            }
+    </script>
+
+
+</body>
+
+
+</html>
