@@ -5,13 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functions</title>
+
+ 
+
+
+    <style type="text/css">
+        #print {
+            background-color: chocolate;
+            color: #fff;
+            font-size:20px;
+            border : 0px ;
+            cursor: pointer;
+        }
+        #print:hover {
+            background-color:blue;
+        }
+        h1{
+            color:red;
+        }
+    </style>
 </head>
 <body>
+
+    <button type="submit" id="print" onclick="printName();"> اطبع الاسم</button>
+    <button type="submit" id="print" onclick="printAge();"> اطبع العمر</button>
+    <button type="submit" id="print" onclick="printSalary();"> اطبع المرتب</button>
+    <button type="submit" id="print" onclick="printEven();"> اطبع الاعداد الزوجية</button>
 
 
 
     <script type="text/javascript">
+
         
+
+            
+
+            function printName () {
+                document.write("<h1>zakaria sassi</h1>");
+            } 
+            function printAge (){
+                document.write("<h1>26</h1>");
+            }
+            function printSalary (){
+                document.write("<h1>4350 + extra per project 360</h1>");
+            }
+            function printEven (){
+                for(var i = 0   ; i <=10 ; i++ ){
+                    if(i % 2 == 0){
+                        document.write("<h1>" + i + "</h1>");
+                    }
+                }
+            }
+   
+
+
     </script>
     
 </body>
