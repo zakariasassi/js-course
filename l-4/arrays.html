@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+
+ 
+</head>
+<body>
+    
+
+
+    <script type="text/javascript">
+
+     
+        var students = ["zakraia" , "ahmed" , "osama"  , "he" , "her" , "she" , "he" , "how"];
+
+        //print array iteam by index 
+         document.write(students[0]) 
+         document.write(students[1])  
+         document.write(students[2])  
+         document.write(students[3])  
+         document.write(students[4])  
+         document.write(students[5])     
+         
+
+         //add iteam to the end of array
+        students.push("javascript")
+
+        //print array iteams using for loop
+        for (let i = 0; i < students.length ; i++) {
+                document.write(students[i]);
+                document.write("<br />");
+        }
+ 
+
+        let item = students[Math.floor(Math.random()*students.length)]; 
+        document.write(item);
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>
