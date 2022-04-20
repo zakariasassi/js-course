@@ -1,7 +1,5 @@
-
-
 let users = {
-    //    key          value
+    //  key          value
         firstName: 'Zakaria',
         lastName : 'sassi',
         age :26,
@@ -30,9 +28,9 @@ let users = {
 
 
 
-console.log(users.firstName + " " + users.lastName);
-console.log(users.skils[0]);
-console.log( users.books.java);
+document.write(users.firstName + " " + users.lastName);
+document.write(users.skils[0]);
+document.write( users.books.java);
 users.printName();
 
 
