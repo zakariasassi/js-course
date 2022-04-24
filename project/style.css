@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+
+.container{
+    height:100vh;
+    width:60%;
+    background-color: rgb(174, 211, 243);
+    margin:  auto;
+    position: relative;
+}
+
+.form{
+ 
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 400px;
+    background-color:aqua;
+    height:400px;
+}
+.inputs{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.inputs input {
+
+    margin-bottom: 10px;
+
+}
+
+.inputs button{
+    background-color: red;
+    width: 200px;
+    cursor: pointer;
+}
+
+.inputs button:hover{
+    background-color: rgb(232, 232, 232);
+    width: 220px;
+    
+}
+
